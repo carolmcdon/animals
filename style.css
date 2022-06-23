@@ -1,5 +1,15 @@
 html {
-    background-color: rgb(255, 255, 255);
+    background-color:white;
+}
+
+#header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: peachpuff;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -7,6 +17,7 @@ h1 {
    color: black;
    font-family:'Lucida Grande';
    font-weight: bolder;
+   outline-color: blue;
 }
 
 p {
@@ -31,13 +42,14 @@ p {
     margin-right: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
     padding-bottom: 20px;
     background-color: peachpuff;
-    border-style:double;
-    border-color: white;
-    border-width: 20px;
+    border-style:solid;
+    border-color: rgb(230, 168, 114);
+    border-width: 32px;
 }
 
 h2 {
@@ -59,7 +71,6 @@ img {
 }
 
 .verticalCenter {
-    margin-top: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
