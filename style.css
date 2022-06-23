@@ -1,13 +1,19 @@
-#logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    width: 600px;
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+   text-align: center;
+   color: black;
+   font-family:'Lucida Grande';
+   font-weight: bolder;
 }
 
 p {
     text-align: center;
+    font-family:'Lucida Grande';
+    color: black;
+    font-weight: bold;
 }
 
 #animalDetails {
@@ -21,17 +27,27 @@ p {
 
 #animalCard {
     max-width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     background-color: peachpuff;
-    border-style:solid;
-    border-color:rgb(198, 142, 94);
-    border-width: 4px;
+    border-style:double;
+    border-color: white;
+    border-width: 20px;
+}
+
+h2 {
+    font-size: large;
+    font-family:'Lucida Grande';
 }
 
 img {
     max-width: 300px;
+    margin-bottom: 10px;
 }
 
 .container {
@@ -49,5 +65,15 @@ img {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+li {
+    list-style: none;
+    font-family:'Lucida Grande';
+}
+
+form {
+    padding-top: 15px;
+    font-family:'Lucida Grande';
 }
 

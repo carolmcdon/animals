@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log('The DOM has loaded')
 
 function getAnimals() {
-    fetch('https://zoo-animal-api.herokuapp.com/animals/rand/8')
+    fetch('https://zoo-animal-api.herokuapp.com/animals/rand/9')
     .then(res=>res.json())
     .then(animals=>animals.forEach(animal => renderAnimal(animal)))
 }
